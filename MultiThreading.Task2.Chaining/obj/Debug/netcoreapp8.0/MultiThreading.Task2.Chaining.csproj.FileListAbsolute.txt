@@ -1,0 +1,14 @@
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/bin/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/bin/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.deps.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/bin/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.runtimeconfig.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/bin/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/bin/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.AssemblyInfoInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.AssemblyInfo.cs
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.csproj.CoreCompileInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/refint/MultiThreading.Task2.Chaining.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.genruntimeconfig.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/ref/MultiThreading.Task2.Chaining.dll

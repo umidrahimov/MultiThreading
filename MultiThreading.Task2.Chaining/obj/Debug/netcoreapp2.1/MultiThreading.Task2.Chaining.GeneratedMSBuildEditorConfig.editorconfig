@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MultiThreading.Task2.Chaining
+build_property.ProjectDir = /Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

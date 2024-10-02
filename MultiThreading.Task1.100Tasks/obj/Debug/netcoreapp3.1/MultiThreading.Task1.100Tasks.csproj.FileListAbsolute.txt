@@ -1,0 +1,13 @@
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/bin/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/bin/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.deps.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/bin/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.runtimeconfig.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/bin/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.runtimeconfig.dev.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/bin/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/bin/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/obj/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/obj/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.AssemblyInfoInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/obj/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.AssemblyInfo.cs
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/obj/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.csproj.CoreCompileInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/obj/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/obj/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task1.100Tasks/obj/Debug/netcoreapp3.1/MultiThreading.Task1.100Tasks.genruntimeconfig.cache
