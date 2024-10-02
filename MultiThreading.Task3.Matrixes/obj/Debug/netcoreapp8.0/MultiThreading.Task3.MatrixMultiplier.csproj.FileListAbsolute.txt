@@ -1,0 +1,15 @@
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/bin/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/bin/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.deps.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/bin/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.runtimeconfig.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/bin/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/bin/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.AssemblyInfoInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.AssemblyInfo.cs
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.csproj.CoreCompileInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.sourcelink.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/refint/MultiThreading.Task3.MatrixMultiplier.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/MultiThreading.Task3.MatrixMultiplier.genruntimeconfig.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task3.Matrixes/obj/Debug/netcoreapp8.0/ref/MultiThreading.Task3.MatrixMultiplier.dll
