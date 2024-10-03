@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreading.Task4.Threads.Join")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c4bac42ef31fde9dca8d99d81df0bb2d4237123")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75bbcd1a7c58b63cf0bffa512e4f323384ddf2a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreading.Task4.Threads.Join")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreading.Task4.Threads.Join")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

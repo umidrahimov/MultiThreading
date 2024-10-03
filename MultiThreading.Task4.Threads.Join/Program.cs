@@ -30,7 +30,7 @@ namespace MultiThreading.Task4.Threads.Join
 
             Console.WriteLine();
 
-            int numOfThreads = 1000;
+            int numOfThreads = 10;
 
             // a) Use Thread class for this task and Join for waiting threads.
             Thread thread = new Thread(() => DoWork(numOfThreads));
@@ -38,7 +38,7 @@ namespace MultiThreading.Task4.Threads.Join
             thread.Join();
 
             //b) ThreadPool class for this task and Semaphore for waiting threads.
-            _pool = new Semaphore(initialCount:0, maximumCount:1);
+            _pool = new Semaphore(initialCount:0, maximumCount:numOfThreads);
             ThreadPool.QueueUserWorkItem(DoWork2,numOfThreads);
             _pool.WaitOne();
             
@@ -66,7 +66,7 @@ namespace MultiThreading.Task4.Threads.Join
             if (num > 0)
             {
             ThreadPool.QueueUserWorkItem(DoWork2,num);
-            //_pool.WaitOne();
+            _pool.WaitOne();
             }
             else{
                 _pool.Release();

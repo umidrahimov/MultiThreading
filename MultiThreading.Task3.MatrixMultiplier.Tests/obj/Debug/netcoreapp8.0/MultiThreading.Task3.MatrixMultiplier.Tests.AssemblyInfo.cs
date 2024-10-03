@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreading.Task3.MatrixMultiplier.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a40784cbbbe8ab60508bd34a71d64f7d52a6609")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75bbcd1a7c58b63cf0bffa512e4f323384ddf2a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreading.Task3.MatrixMultiplier.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreading.Task3.MatrixMultiplier.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
