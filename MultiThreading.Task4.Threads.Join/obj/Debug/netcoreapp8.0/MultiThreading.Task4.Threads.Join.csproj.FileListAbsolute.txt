@@ -1,0 +1,15 @@
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/bin/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/bin/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.deps.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/bin/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.runtimeconfig.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/bin/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/bin/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.AssemblyInfoInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.AssemblyInfo.cs
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.csproj.CoreCompileInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.sourcelink.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/refint/MultiThreading.Task4.Threads.Join.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/MultiThreading.Task4.Threads.Join.genruntimeconfig.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task4.Threads.Join/obj/Debug/netcoreapp8.0/ref/MultiThreading.Task4.Threads.Join.dll
