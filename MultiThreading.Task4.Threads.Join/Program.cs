@@ -38,10 +38,9 @@ namespace MultiThreading.Task4.Threads.Join
             thread.Join();
 
             //b) ThreadPool class for this task and Semaphore for waiting threads.
-            _pool = new Semaphore(initialCount:0, maximumCount:numOfThreads);
-            ThreadPool.QueueUserWorkItem(DoWork2,numOfThreads);
-            _pool.WaitOne();
-            
+            _pool = new Semaphore(initialCount: 1, maximumCount: 1);
+            ThreadPool.QueueUserWorkItem(DoWork2, numOfThreads);
+            //_pool.WaitOne();
             Console.ReadLine();
         }
 
@@ -61,16 +60,17 @@ namespace MultiThreading.Task4.Threads.Join
         private static void DoWork2(object input)
         {
             int num = (int)input;
+            System.Console.WriteLine($"Thread {Thread.CurrentThread.Name} with #{num} is waiting for Semaphore ");
+            _pool.WaitOne();
+            System.Console.WriteLine($"Thread {Thread.CurrentThread.Name} with #{input} started work");
             Console.WriteLine(num);
             num--;
             if (num > 0)
             {
-            ThreadPool.QueueUserWorkItem(DoWork2,num);
-            _pool.WaitOne();
+                ThreadPool.QueueUserWorkItem(DoWork2, num);
             }
-            else{
-                _pool.Release();
-            }
+            _pool.Release(1);
+            System.Console.WriteLine($"Thread {Thread.CurrentThread.Name} with #{input} completed work");
         }
     }
 }
