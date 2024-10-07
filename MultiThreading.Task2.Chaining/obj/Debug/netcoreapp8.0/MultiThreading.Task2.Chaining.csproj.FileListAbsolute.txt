@@ -12,3 +12,4 @@
 /Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.pdb
 /Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.genruntimeconfig.cache
 /Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/ref/MultiThreading.Task2.Chaining.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task2.Chaining/obj/Debug/netcoreapp8.0/MultiThreading.Task2.Chaining.sourcelink.json

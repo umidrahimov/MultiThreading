@@ -20,7 +20,7 @@ namespace MultiThreading.Task1._100Tasks
             Console.WriteLine("Each Task should iterate from 1 to 1000 and print into the console the following string:");
             Console.WriteLine("“Task #0 – {iteration number}”.");
             Console.WriteLine();
-            
+
             //Using new Task and Start methods
             //HundredTasks();
 
@@ -36,7 +36,7 @@ namespace MultiThreading.Task1._100Tasks
 
             for (int i = 0; i < taskArray.Length; i++)
             {
-                int taskIndex = i; 
+                int taskIndex = i;
                 taskArray[i] = new Task(() => Print1000(taskIndex));
                 taskArray[i].Start();
             }
@@ -45,13 +45,13 @@ namespace MultiThreading.Task1._100Tasks
             Console.ReadLine();
         }
 
-                static void HundredTasks2()
+        static void HundredTasks2()
         {
             Task[] taskArray = new Task[TaskAmount];
 
             for (int i = 0; i < taskArray.Length; i++)
             {
-                int taskIndex = i; 
+                int taskIndex = i;
                 taskArray[i] = Task.Factory.StartNew(() => Print1000(taskIndex));
             }
             Task.WaitAll(taskArray);
@@ -61,7 +61,7 @@ namespace MultiThreading.Task1._100Tasks
 
         static void Print1000(int taskID)
         {
-            for (int i = 1; i <= 1000; i++)
+            for (int i = 1; i <= MaxIterationsCount; i++)
             {
                 Console.WriteLine("Task {0} – {1}.", taskID, i);
             }

@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MultiThreading.Task3.MatrixMultiplier.Matrices;
 using MultiThreading.Task3.MatrixMultiplier.Multipliers;
@@ -16,10 +17,52 @@ namespace MultiThreading.Task3.MatrixMultiplier.Tests
         }
 
         [TestMethod]
-        public void ParallelEfficiencyTest()
+        [DataRow(1, false)]
+        [DataRow(5, false)]
+        [DataRow(10, false)]
+        [DataRow(15, true)]
+        [DataRow(20, true)]
+        public void ParallelEfficiencyTest(int size, bool isFaster)
         {
-            // todo: implement a test method to check the size of the matrix which makes parallel multiplication more effective than
-            // todo: the regular one
+            var matrix1 = new Matrix(size, size, true);
+            var matrix2 = new Matrix(size, size, true);
+
+            MatricesMultiplier matrixMultiplier = new MatricesMultiplier();
+            MatricesMultiplierParallel matricesMultiplierParallel = new MatricesMultiplierParallel();
+
+            var sequentialTime = MeasureExecutionTime(() => matrixMultiplier.Multiply(matrix1, matrix2));
+            var parallelTime = MeasureExecutionTime(() => matricesMultiplierParallel.Multiply(matrix1, matrix2));
+
+            Console.WriteLine($"Size: {size}, Sequential: {sequentialTime.TotalMilliseconds} ms, Parallel: {parallelTime.TotalMilliseconds} ms");
+
+            Assert.AreEqual(isFaster, parallelTime < sequentialTime, "Expected parallel performance to match the provided isFaster value.");
+        }
+
+        [TestMethod]
+        public void FindOptimalSizeForParallelProcessing()
+        {
+            int maxSize = 50; // A maximum size to avoid excessively long tests
+            int step = 1; // A step size for increasing the matrix dimensions
+
+            MatricesMultiplier matrixMultiplier = new MatricesMultiplier();
+            MatricesMultiplierParallel matricesMultiplierParallel = new MatricesMultiplierParallel();
+
+            for (int size = 1; size <= maxSize; size += step)
+            {
+                var matrix1 = new Matrix(size, size, true);
+                var matrix2 = new Matrix(size, size, true);
+
+                var sequentialTime = MeasureExecutionTime(() => matrixMultiplier.Multiply(matrix1, matrix2));
+                var parallelTime = MeasureExecutionTime(() => matricesMultiplierParallel.Multiply(matrix1, matrix2));
+
+                Console.WriteLine($"Size: {size}, Sequential: {sequentialTime.TotalMilliseconds} ms, Parallel: {parallelTime.TotalMilliseconds} ms");
+
+                if (parallelTime < sequentialTime)
+                {
+                    Console.WriteLine($"Parallel processing becomes faster at matrix size {size}");
+                    break;
+                }
+            }
         }
 
         #region private methods
@@ -70,6 +113,16 @@ namespace MultiThreading.Task3.MatrixMultiplier.Tests
             Assert.AreEqual(213, multiplied.GetElement(2, 1));
             Assert.AreEqual(728, multiplied.GetElement(2, 2));
         }
+
+        TimeSpan MeasureExecutionTime(Action action)
+        {
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            action.Invoke();
+            stopwatch.Stop();
+            return stopwatch.Elapsed;
+        }
+
 
         #endregion
     }

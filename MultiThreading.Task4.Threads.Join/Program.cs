@@ -18,6 +18,7 @@ namespace MultiThreading.Task4.Threads.Join
     class Program
     {
         private static Semaphore _pool;
+        private static CountdownEvent countdownEvent;
 
         static void Main(string[] args)
         {
@@ -33,44 +34,52 @@ namespace MultiThreading.Task4.Threads.Join
             int numOfThreads = 10;
 
             // a) Use Thread class for this task and Join for waiting threads.
+            Console.WriteLine("Implementation A: using Thread class and Join for waitin threads. \n");
+
             Thread thread = new Thread(() => DoWork(numOfThreads));
             thread.Start();
             thread.Join();
 
             //b) ThreadPool class for this task and Semaphore for waiting threads.
-            _pool = new Semaphore(initialCount: 1, maximumCount: 1);
+            Console.WriteLine("\nImplementation B: using ThreadPool class and Semaphore for waitin threads. \n");
+
+            _pool = new Semaphore(initialCount: 0, maximumCount: 1);
             ThreadPool.QueueUserWorkItem(DoWork2, numOfThreads);
-            //_pool.WaitOne();
-            Console.ReadLine();
+            _pool.WaitOne();
         }
 
         private static void DoWork(int input)
         {
-            Console.WriteLine(input);
-            input--;
+            Console.WriteLine($"Thread ID #{Thread.CurrentThread.ManagedThreadId} started working on item #{input}");
 
-            if (input > 0)
+            if (--input > 0)
             {
                 Thread t = new Thread(() => DoWork(input));
+
+                Console.WriteLine($"Thread ID #{Thread.CurrentThread.ManagedThreadId} decremented value and passed {input} to the next thread\n");
+
                 t.Start();
                 t.Join();
             }
+
+            Console.WriteLine($"Thread ID #{Thread.CurrentThread.ManagedThreadId} completed working on item #{++input}\n");
         }
 
         private static void DoWork2(object input)
         {
             int num = (int)input;
-            System.Console.WriteLine($"Thread {Thread.CurrentThread.Name} with #{num} is waiting for Semaphore ");
-            _pool.WaitOne();
-            System.Console.WriteLine($"Thread {Thread.CurrentThread.Name} with #{input} started work");
-            Console.WriteLine(num);
-            num--;
-            if (num > 0)
+
+            Console.WriteLine($"Thread with ID {Thread.CurrentThread.ManagedThreadId} started working on item #{num}");
+
+            if (--num > 0)
             {
                 ThreadPool.QueueUserWorkItem(DoWork2, num);
+
+                Console.WriteLine($"Thread ID #{Thread.CurrentThread.ManagedThreadId} decremented value and passed {num} to the next thread");
             }
-            _pool.Release(1);
-            System.Console.WriteLine($"Thread {Thread.CurrentThread.Name} with #{input} completed work");
+            else _pool.Release(1);
+
+            Console.WriteLine($"Thread ID #{Thread.CurrentThread.ManagedThreadId} completed working on item #{num++}\n");
         }
     }
 }

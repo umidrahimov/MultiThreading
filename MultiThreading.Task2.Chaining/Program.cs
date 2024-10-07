@@ -8,7 +8,6 @@
  */
 using System;
 using System.Linq;
-using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 
 namespace MultiThreading.Task2.Chaining
@@ -25,15 +24,56 @@ namespace MultiThreading.Task2.Chaining
             Console.WriteLine("Fourth Task – calculates the average value. All this tasks should print the values to console");
             Console.WriteLine();
 
-            Console.WriteLine("Starting Task 1...");
-            Task<int[]> task1 = Task.Run(() => GetRandomNumbers(10));
-            Console.WriteLine($"Task 1 executed with the result: [{string.Join(", ", task1.Result)}]");
-            Task<int[]> task2 = task1.ContinueWith(antecedent => DoComputation(task1.Result));
-            Console.WriteLine($"Task 2 executed with the result: [{string.Join(", ", task2.Result)}]");
-            Task<int[]> task3 = task2.ContinueWith(antecedent => SortArray(task2.Result));
-            Console.WriteLine($"Task 3 executed with the result: [{string.Join(", ", task3.Result)}]");
-            Task<double> task4 = task3.ContinueWith(antecedent => FindAverage(task3.Result));
-            Console.WriteLine($"Task 4 executed with the result: [{string.Join(", ", task4.Result)}]");
+            //Approach 1
+            try
+            {
+                Console.WriteLine("Starting Task 1...");
+                Task<int[]> task1 = Task.Run(() => GetRandomNumbers(10));
+                Console.WriteLine($"Task 1 executed with the result: [{string.Join(", ", task1.Result)}] \n");
+
+                Console.WriteLine("Starting Task 2...");
+                Task<int[]> task2 = task1.ContinueWith(antecedent => DoComputation(task1.Result));
+                Console.WriteLine($"Task 2 executed with the result: [{string.Join(", ", task2.Result)}] \n");
+
+                Console.WriteLine("Starting Task 3...");
+                Task<int[]> task3 = task2.ContinueWith(antecedent => SortArray(task2.Result));
+                Console.WriteLine($"Task 3 executed with the result: [{string.Join(", ", task3.Result)}] \n");
+
+                Console.WriteLine("Starting Task 4...");
+                Task<double> task4 = task3.ContinueWith(antecedent => FindAverage(task3.Result));
+                Console.WriteLine($"Task 4 executed with the result: {task4.Result} \n");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+
+            //Approach 2
+            /*
+            try
+            {
+                Console.WriteLine("Starting Task 1...");
+                int[] randomNumbers = await Task.Run(() => GetRandomNumbers(10));
+                Console.WriteLine($"Task 1 executed with the result: [{string.Join(", ", randomNumbers)}] \n");
+
+                Console.WriteLine("Starting Task 2...");
+                int[] multipliedNumbers = await Task.Run(() => DoComputation(randomNumbers));
+                Console.WriteLine($"Task 2 executed with the result: [{string.Join(", ", multipliedNumbers)}] \n");
+
+                Console.WriteLine("Starting Task 3...");
+                int[] sortedNumbers = await Task.Run(() => SortArray(multipliedNumbers));
+                Console.WriteLine($"Task 3 executed with the result: [{string.Join(", ", sortedNumbers)}] \n");
+
+                Console.WriteLine("Starting Task 4...");
+                double averageValue = await Task.Run(() => FindAverage(sortedNumbers));
+                Console.WriteLine($"Task 4 executed with the result: {averageValue} \n");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+            */
+
             Console.ReadLine();
         }
 
@@ -41,37 +81,67 @@ namespace MultiThreading.Task2.Chaining
 
         private static int[] GetRandomNumbers(int count)
         {
-            int[] result = new int[count];
-            for (int i = 0; i < count; i++)
+            try
             {
-                result[i] = random.Next(1,100);
-                Console.WriteLine($"Element #{i} got a random number {result[i]} assigned.");
+                int[] result = new int[count];
+                for (int i = 0; i < count; i++)
+                {
+                    result[i] = random.Next(1, 100);
+                    Console.WriteLine($"Element #{i} got a random number {result[i]} assigned.");
+                }
+                return result;
             }
-            return result;
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in GetRandomNumbers: {ex.Message}");
+                throw;
+            }
         }
 
         private static int[] DoComputation(int[] numbers)
         {
-            int[] result = new int[numbers.Length];
-            for (int i = 0; i < numbers.Length; i++)
+            try
             {
-                int tempRandom = random.Next(1,100);
-                result[i] = numbers[i] * tempRandom;
-                Console.WriteLine($"Element #{i} {result[i]} multiplied by a random number {tempRandom} and resulted in {result[i]}.");
+                int[] result = new int[numbers.Length];
+                for (int i = 0; i < numbers.Length; i++)
+                {
+                    int tempRandom = random.Next(1, 100);
+                    result[i] = numbers[i] * tempRandom;
+                    Console.WriteLine($"Element #{i} {numbers[i]} multiplied by a random number {tempRandom} and resulted in {result[i]}.");
+                }
+                return result;
             }
-            return result;
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in DoComputation: {ex.Message}");
+                throw;
+            }
         }
 
         private static int[] SortArray(int[] numbers)
         {
-            int[] result = numbers;
-            Array.Sort(result);
-            return result;
+            try
+            {
+                Array.Sort(numbers);
+                return numbers;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in SortNumbers: {ex.Message}");
+                throw;
+            }
         }
 
         private static double FindAverage(int[] numbers)
         {
-            return Enumerable.Average(numbers);
+            try
+            {
+                return numbers.Average();
+            }
+            catch (Exception ex)
+            {
+            Console.WriteLine($"Error in FindAverage: {ex.Message}");
+            throw;            }
         }
     }
 }
