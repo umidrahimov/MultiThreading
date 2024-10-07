@@ -1,11 +1,11 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.1",
+    "name": ".NETCoreApp,Version=v8.0",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.1": {
+    ".NETCoreApp,Version=v8.0": {
       "MultiThreading.Task5.Threads.SharedCollection/1.0.0": {
         "runtime": {
           "MultiThreading.Task5.Threads.SharedCollection.dll": {}

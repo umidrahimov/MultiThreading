@@ -1,0 +1,15 @@
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/bin/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/bin/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.deps.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/bin/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.runtimeconfig.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/bin/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/bin/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.AssemblyInfoInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.AssemblyInfo.cs
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.csproj.CoreCompileInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.sourcelink.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/refint/MultiThreading.Task5.Threads.SharedCollection.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/MultiThreading.Task5.Threads.SharedCollection.genruntimeconfig.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task5.Threads.SharedCollection/obj/Debug/netcoreapp8.0/ref/MultiThreading.Task5.Threads.SharedCollection.dll
