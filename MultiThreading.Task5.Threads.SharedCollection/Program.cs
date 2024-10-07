@@ -5,9 +5,7 @@
  * Use Thread, ThreadPool or Task classes for thread creation and any kind of synchronization constructions.
  */
 using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
-using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -44,7 +42,7 @@ namespace MultiThreading.Task5.Threads.SharedCollection
             {
                 newItemPrintedEvent.WaitOne();
                 collection.Add($"Element {i}");
-                System.Console.WriteLine($"Writer task #{Thread.CurrentThread.ManagedThreadId} added element {i}.");
+                Console.WriteLine($"Writer task #{Thread.CurrentThread.ManagedThreadId} added element {i} to the collection.");
                 newItemAddedEvent.Set();
             }
         }
@@ -53,7 +51,7 @@ namespace MultiThreading.Task5.Threads.SharedCollection
             for (int i = 0; i < count; i++)
             {
                 newItemAddedEvent.WaitOne();
-                System.Console.WriteLine($"Reader task #{Thread.CurrentThread.ManagedThreadId} printed collection itme {i}: {collection[i]}\n");
+                Console.WriteLine($"Reader task #{Thread.CurrentThread.ManagedThreadId} printed collection itme {i}: {collection[i]}\n");
                 newItemPrintedEvent.Set();
             }
         }
