@@ -1,0 +1,15 @@
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.AssemblyInfoInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.AssemblyInfo.cs
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.csproj.CoreCompileInputs.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.sourcelink.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/bin/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/bin/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.deps.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/bin/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.runtimeconfig.json
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/bin/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/bin/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/refint/MultiThreading.Task6.Continuation.dll
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.pdb
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/MultiThreading.Task6.Continuation.genruntimeconfig.cache
+/Users/Umid_Rahimov/Documents/C#-Apps/01.multithreading/MultiThreading.Task6.Continuation/obj/Debug/netcoreapp8.0/ref/MultiThreading.Task6.Continuation.dll
