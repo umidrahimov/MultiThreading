@@ -43,6 +43,7 @@ namespace MultiThreading.Task3.MatrixMultiplier.Tests
         {
             int maxSize = 50; // A maximum size to avoid excessively long tests
             int step = 1; // A step size for increasing the matrix dimensions
+            bool isOptimalSizeFound = false;
 
             MatricesMultiplier matrixMultiplier = new MatricesMultiplier();
             MatricesMultiplierParallel matricesMultiplierParallel = new MatricesMultiplierParallel();
@@ -60,9 +61,11 @@ namespace MultiThreading.Task3.MatrixMultiplier.Tests
                 if (parallelTime < sequentialTime)
                 {
                     Console.WriteLine($"Parallel processing becomes faster at matrix size {size}");
+                    isOptimalSizeFound = true;
                     break;
                 }
             }
+            Assert.IsTrue(isOptimalSizeFound);
         }
 
         #region private methods

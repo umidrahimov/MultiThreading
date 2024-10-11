@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreading.Task5.Threads.SharedCollection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee0a9bc8f94923f9fba6a0afb6690ea7e628f9a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+689d9208e7dfe9085b63845f80de3701a09c90ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreading.Task5.Threads.SharedCollection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreading.Task5.Threads.SharedCollection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

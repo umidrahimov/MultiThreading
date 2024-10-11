@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiThreading.Task6.Continuation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+495a2e37539beb1d915cf388a0496c8d66ea8d64")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+689d9208e7dfe9085b63845f80de3701a09c90ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiThreading.Task6.Continuation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiThreading.Task6.Continuation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

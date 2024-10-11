@@ -32,15 +32,15 @@ namespace MultiThreading.Task2.Chaining
                 Console.WriteLine($"Task 1 executed with the result: [{string.Join(", ", task1.Result)}] \n");
 
                 Console.WriteLine("Starting Task 2...");
-                Task<int[]> task2 = task1.ContinueWith(antecedent => DoComputation(task1.Result));
+                Task<int[]> task2 = task1.ContinueWith(antecedent => DoComputation(antecedent.Result));
                 Console.WriteLine($"Task 2 executed with the result: [{string.Join(", ", task2.Result)}] \n");
 
                 Console.WriteLine("Starting Task 3...");
-                Task<int[]> task3 = task2.ContinueWith(antecedent => SortArray(task2.Result));
+                Task<int[]> task3 = task2.ContinueWith(antecedent => SortArray(antecedent.Result));
                 Console.WriteLine($"Task 3 executed with the result: [{string.Join(", ", task3.Result)}] \n");
 
                 Console.WriteLine("Starting Task 4...");
-                Task<double> task4 = task3.ContinueWith(antecedent => FindAverage(task3.Result));
+                Task<double> task4 = task3.ContinueWith(antecedent => FindAverage(antecedent.Result));
                 Console.WriteLine($"Task 4 executed with the result: {task4.Result} \n");
             }
             catch (Exception ex)
